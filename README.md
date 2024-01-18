@@ -11,7 +11,7 @@
 
 # 📘 Features
 
-- Apply NBT tags to (some) recipe ingredients and outputs.
+- Apply NBT tags to (some) recipe ingredients and outputs by adding a `data` key to them.
 
 > For a full list of features, and explanations on how to use them, go to the [wiki](obscure.sindercu.be/).
 
