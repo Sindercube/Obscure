@@ -1,0 +1,9 @@
+{
+    "schemaVersion": 1,
+    "id": "${module_id}",
+    "version": "${module_version}",
+    "name": "${module_name}",
+    "description": "${module_description}",
+    "authors": [ "Sindercube" ],
+    "custom": { "modmenu": { "parent": "${mod_id}" } }
+}
