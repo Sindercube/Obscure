@@ -3,6 +3,9 @@ plugins {
     id 'maven-publish'
 }
 
+version = project.mod_version
+group = project.maven_group
+
 repositories {
     maven { url 'https://maven.terraformersmc.com/releases/' }
     mavenCentral()
@@ -48,9 +51,6 @@ dependencies {
         include project(path: "${it.path}", configuration: "namedElements")
     }
 }
-
-version = project.mod_version
-group = project.maven_group
 
 publishing {
 

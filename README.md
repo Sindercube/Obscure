@@ -1,6 +1,6 @@
 [![Requires Fabric API](https://img.shields.io/badge/Requires-Fabric_API-b8b9c4?style=for-the-badge)](https://modrinth.com/mod/fabric-api)
 ![Game Versions](https://img.shields.io/badge/Game_Versions-1.20.1-b8b9c4?style=for-the-badge)
-![Latest Release](https://img.shields.io/github/v/tag/Sindercube/Obscure?style=for-the-badge&label=Latest%20Release&color=b8b9c4)
+[![Latest Release](https://img.shields.io/github/v/tag/Sindercube/Obscure?style=for-the-badge&label=Latest%20Release&color=b8b9c4)](https://modrinth.com/mod/obscure/version/latest)
 
 # About
 
@@ -19,6 +19,6 @@
 
 - **W.I.P.**
 
-> For a full list of projects that use **Iconic**, go [here](https://github.com/topics/uses-minecraft-obscure).
+> For a full list of projects that use **Obscure**, go [here](https://github.com/topics/uses-minecraft-obscure).
 
-# 📝 Credits
+<!-- # 📝 Credits -->
