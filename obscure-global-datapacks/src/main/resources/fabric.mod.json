@@ -5,5 +5,7 @@
     "name": "${module_name}",
     "description": "${module_description}",
     "authors": [ "Sindercube" ],
+    "entrypoints": { "main": [ "com.sindercube.obscure.globalDatapacks.ObscureGlobalDatapacks" ] },
+    "mixins": [ "obscure-global-datapacks.mixins.json" ],
     "custom": { "modmenu": { "parent": "${mod_id}" } }
 }

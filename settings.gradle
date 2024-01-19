@@ -9,4 +9,5 @@ rootProject.name = "Obscure"
 include(
 	'obscure-base',
 	'obscure-nbt-crafting',
+	'obscure-global-datapacks'
 )

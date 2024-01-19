@@ -5,9 +5,8 @@
     "name": "${module_name}",
     "authors": [ "Sindercube" ],
     "icon": "assets/obscure/icon.png",
-    "environment": "*",
     "entrypoints": { "main": [ "com.sindercube.obscure.nbtCrafting.ObscureNbtCrafting" ] },
-    "mixins": [ "obscure-nbt-crafting.mixin.json" ],
+    "mixins": [ "obscure-nbt-crafting.mixins.json" ],
     "accessWidener": "obscure-nbt-crafting.accesswidener",
     "custom": { "modmenu": { "parent": "${mod_id}" } }
 }

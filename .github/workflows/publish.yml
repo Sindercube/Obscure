@@ -22,11 +22,16 @@ jobs:
                   distribution: "temurin"
                   java-version: 17
                   cache: "gradle"
-            - name: Change Version
+            - name: Change Mod Version
               run: sed -i 's/.*mod_version=*.*/mod_version=${{ github.event.release.tag_name }}/g' gradle.properties
-            - name: Build
+            - name: Build Artifacts
               run: ./gradlew clean build
-            - name: Publish
+            - name: Upload Artifacts
+              uses: actions/upload-artifact@v3
+              with:
+                  name: Artifacts
+                  path: "*/build/libs/*.jar"
+            - name: Publish Artifacts
               uses: Kir-Antipov/mc-publish@v3.3.0
               with:
                   modrinth-id: "${{ env.MODRINTH_ID }}"
@@ -34,6 +39,7 @@ jobs:
                   modrinth-version-type: "${{ steps.get-release.outputs.release-type }}"
                   github-tag: "${{ github.event.release.tag_name }}"
                   github-token: "${{ secrets.GITHUB_TOKEN }}"
+                  files: "build/libs/*.jar"
 
                   name: "Iconic v${{ github.event.release.tag_name }}"
                   version: "${{ github.event.release.tag_name }}"

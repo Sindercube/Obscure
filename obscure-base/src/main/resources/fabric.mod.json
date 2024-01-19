@@ -4,7 +4,5 @@
     "version": "${module_version}",
     "name": "${module_name}",
     "authors": [ "Sindercube" ],
-    "icon": "assets/obscure/icon.png",
-    "environment": "*",
     "custom": { "modmenu": { "parent": "${mod_id}" } }
 }
