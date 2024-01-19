@@ -41,7 +41,7 @@ jobs:
                   github-token: "${{ secrets.GITHUB_TOKEN }}"
                   files: "build/libs/*.jar"
 
-                  name: "Iconic v${{ github.event.release.tag_name }}"
+                  name: "Obscure v${{ github.event.release.tag_name }}"
                   version: "${{ github.event.release.tag_name }}"
                   version-type: "${{ env.RELEASE_TYPE }}"
                   changelog: "${{ github.event.release.body }}"
