@@ -4,7 +4,6 @@
     "version": "${module_version}",
     "name": "Obscure NBT Crafting",
     "authors": [ "Sindercube" ],
-    "icon": "assets/obscure/icon.png",
     "entrypoints": { "main": [ "com.sindercube.obscure.nbtCrafting.ObscureNbtCrafting" ] },
     "mixins": [ "obscure-nbt-crafting.mixins.json" ],
     "accessWidener": "obscure-nbt-crafting.accesswidener",
