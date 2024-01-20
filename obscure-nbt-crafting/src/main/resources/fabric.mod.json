@@ -1,8 +1,8 @@
 {
     "schemaVersion": 1,
-    "id": "${module_id}",
+    "id": "obscure-nbt-crafting",
     "version": "${module_version}",
-    "name": "${module_name}",
+    "name": "Obscure NBT Crafting",
     "authors": [ "Sindercube" ],
     "icon": "assets/obscure/icon.png",
     "entrypoints": { "main": [ "com.sindercube.obscure.nbtCrafting.ObscureNbtCrafting" ] },

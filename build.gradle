@@ -37,10 +37,6 @@ subprojects {
     base {
         archivesName = "${project.name}-${minecraft_version}"
     }
-
-    dependencies {
-        if (project.name != "obscure-base") modImplementation project(":obscure-base")
-    }
 }
 
 dependencies {

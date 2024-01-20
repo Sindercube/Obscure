@@ -1,9 +1,8 @@
 {
     "schemaVersion": 1,
-    "id": "${module_id}",
+    "id": "obscure-global-datapacks",
     "version": "${module_version}",
-    "name": "${module_name}",
-    "description": "${module_description}",
+    "name": "Obscure Global Datapacks",
     "authors": [ "Sindercube" ],
     "entrypoints": { "main": [ "com.sindercube.obscure.globalDatapacks.ObscureGlobalDatapacks" ] },
     "mixins": [ "obscure-global-datapacks.mixins.json" ],
