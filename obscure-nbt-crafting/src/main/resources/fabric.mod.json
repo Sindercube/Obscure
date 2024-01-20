@@ -1,11 +1,11 @@
 {
     "schemaVersion": 1,
     "id": "obscure-nbt-crafting",
-    "version": "${module_version}",
+    "version": "${version}",
     "name": "Obscure NBT Crafting",
     "authors": [ "Sindercube" ],
     "entrypoints": { "main": [ "com.sindercube.obscure.nbtCrafting.ObscureNbtCrafting" ] },
     "mixins": [ "obscure-nbt-crafting.mixins.json" ],
     "accessWidener": "obscure-nbt-crafting.accesswidener",
-    "custom": { "modmenu": { "parent": "${mod_id}" } }
+    "custom": { "modmenu": { "parent": "obscure" } }
 }

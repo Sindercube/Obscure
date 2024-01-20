@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
-    "id": "${mod_id}",
-    "version": "${mod_version}",
+    "id": "obscure",
+    "version": "${version}",
 
     "name": "Obscure",
     "description": "W.I.P.",
@@ -25,10 +25,6 @@
     },
     "license": "LGPL-3.0-or-later",
 
-    "environment": "*",
-    "entrypoints": {
-        "main": [ "com.sindercube.obscure.Obscure" ]
-    },
     "depends": {
         "fabric-api": "*"
     },

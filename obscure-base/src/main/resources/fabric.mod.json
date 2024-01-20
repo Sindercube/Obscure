@@ -1,8 +1,8 @@
 {
     "schemaVersion": 1,
-    "id": "${module_id}",
-    "version": "${module_version}",
-    "name": "${module_name}",
-    "authors": [ "Sindercube" ],
-    "custom": { "modmenu": { "parent": "${mod_id}" } }
+    "id": "obscure-base",
+    "version": "${version}",
+    "name": "Obscure Base",
+    "entrypoints": { "main": [ "com.sindercube.obscure.Obscure" ] },
+    "custom": { "modmenu": { "parent": "obscure" } }
 }

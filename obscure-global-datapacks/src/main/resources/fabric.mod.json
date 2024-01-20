@@ -1,10 +1,10 @@
 {
     "schemaVersion": 1,
     "id": "obscure-global-datapacks",
-    "version": "${module_version}",
+    "version": "${version}",
     "name": "Obscure Global Datapacks",
     "authors": [ "Sindercube" ],
     "entrypoints": { "main": [ "com.sindercube.obscure.globalDatapacks.ObscureGlobalDatapacks" ] },
     "mixins": [ "obscure-global-datapacks.mixins.json" ],
-    "custom": { "modmenu": { "parent": "${mod_id}" } }
+    "custom": { "modmenu": { "parent": "obscure" } }
 }

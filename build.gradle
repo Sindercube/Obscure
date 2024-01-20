@@ -27,7 +27,11 @@ allprojects {
     }
 
     processResources {
-        filesMatching('fabric.mod.json') { expand project.properties }
+        inputs.property "version", project.version
+
+        filesMatching("fabric.mod.json") {
+            expand "version": project.version
+        }
     }
 }
 
@@ -36,6 +40,10 @@ subprojects {
 
     base {
         archivesName = "${project.name}-${minecraft_version}"
+    }
+
+    dependencies {
+        if (project.name != "obscure-base") api project(":obscure-base")
     }
 }
 
@@ -47,4 +55,3 @@ dependencies {
         include project(path: "${it.path}", configuration: "namedElements")
     }
 }
-
