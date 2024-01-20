@@ -33,10 +33,6 @@ public class ObscureNbtCrafting implements ModInitializer {
             NbtCompound.CODEC.optionalFieldOf("data").forGetter((stack) -> Optional.ofNullable(stack.getNbt()))
     ).apply(instance, ItemStack::new));
 
-
-    public static final String MOD_ID = "snc";
-    public static final Logger LOGGER = LoggerFactory.getLogger("SimpleNBTCrafting");
-
     @Override
     public void onInitialize() {}
 
