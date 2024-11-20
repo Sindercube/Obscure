@@ -7,8 +7,8 @@ pluginManagement {
 }
 rootProject.name = "Obscure"
 
-include(
-		'obscure-base',
-		'obscure-nbt-crafting',
-		'obscure-global-datapacks'
-)
+include 'obscure-base'
+
+include 'obscure-ingredient-matching'
+include 'obscure-global-datapacks'
+include 'obscure-constructs'

@@ -9,8 +9,8 @@ public class Obscure implements ModInitializer {
 
     public static final String MOD_ID = "obscure";
 
-    public static Identifier id(String path) {
-        return new Identifier(MOD_ID, path);
+    public static Identifier of(String path) {
+        return Identifier.of(MOD_ID, path);
     }
 
     public static final Logger LOGGER = LoggerFactory.getLogger("Obscure");

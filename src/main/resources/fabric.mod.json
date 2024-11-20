@@ -5,36 +5,15 @@
 
     "name": "Obscure",
     "description": "W.I.P.",
-    "authors": [
-        {
-            "name": "Sindercube",
-            "contact": {
-                "homepage": "https://sindercu.be/",
-                "discord": "https://discord.sindercu.be/"
-            }
-        }
-    ],
-    "contributors": [
-        "Soumeh"
-    ],
+    "authors": [ "Sindercube" ],
     "contact": {
-        "sources": "https://github.com/Sindercube/Obscure",
-        "issues": "https://github.com/Sindercube/Obscure/issues",
-        "homepage": "https://obscure.sindercu.be/",
+        "homepage": "https://iconic.sindercu.be/",
+        "sources": "https://github.com/Sindercube/Iconic",
         "discord": "https://discord.sindercu.be/"
     },
     "license": "LGPL-3.0-or-later",
 
     "depends": {
         "fabric-api": "*"
-    },
-
-    "custom": {
-        "modmenu": {
-            "links": {
-                "modmenu.discord": "https://discord.sindercu.be/",
-                "modmenu.modrinth": "https://modrinth.com/mod/obscure"
-            }
-        }
     }
 }

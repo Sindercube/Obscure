@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.sindercube.obscure.ingredientMatching.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"mixins": [
+		"IngredientMixins$IngredientMixin",
+		"IngredientMixins$StackEntryMixin",
+		"IngredientMixins$TagEntryMixin"
+	]
+}

@@ -1,5 +1,5 @@
 [![Requires Fabric API](https://img.shields.io/badge/Requires-Fabric_API-b8b9c4?style=for-the-badge)](https://modrinth.com/mod/fabric-api)
-![Game Versions](https://img.shields.io/badge/Game_Versions-1.20.1-b8b9c4?style=for-the-badge)
+![Game Versions](https://img.shields.io/modrinth/game-versions/OinSBCwv?style=for-the-badge&color=b8b9c4)
 [![Latest Release](https://img.shields.io/github/v/tag/Sindercube/Obscure?style=for-the-badge&label=Latest%20Release&color=b8b9c4)](https://modrinth.com/mod/obscure/version/latest)
 
 # About
@@ -13,7 +13,7 @@
 
 - Apply NBT tags to (some) recipe ingredients and outputs by adding a `data` key to them.
 
-> For a full list of features, and explanations on how to use them, go to the [wiki](obscure.sindercu.be/).
+> For a full list of features, and explanations on how to use them, go to the [wiki](https://obscure.sindercu.be/).
 
 # 👥 Users
 

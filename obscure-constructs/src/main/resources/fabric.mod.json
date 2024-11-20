@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "obscure-constructs",
+    "version": "${module_version}",
+
+    "name": "Obscure Constructs",
+    "authors": [ "Sindercube" ],
+    "entrypoints": {
+		"main": [ "com.sindercube.obscure.constructs.ObscureConstructs" ]
+	},
+    "mixins": [ "obscure-constructs.mixins.json" ],
+
+    "custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/class_1297": ["com/sindercube/obscure/constructs/access/ObscureEntityAccess"]
+		},
+		"modmenu": { "parent": "obscure" }
+	}
+}
