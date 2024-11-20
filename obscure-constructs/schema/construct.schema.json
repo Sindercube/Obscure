@@ -1,0 +1,54 @@
+{
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"type": "object",
+	"required": [
+		"pattern",
+		"key",
+		"offset",
+		"entity"
+	],
+	"properties": {
+		"pattern": {
+			"anyOf": [
+				{
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				{
+					"type": "array",
+					"items": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					}
+				},
+				{
+					"type": "string"
+				}
+			]
+		},
+		"key": {
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"additionalProperties": {
+					"type": "string"
+				}
+			}
+		},
+		"offset": {
+			"type": "array",
+			"minItems": 3,
+			"maxItems": 3,
+			"items": {
+				"type": "integer"
+			}
+		},
+		"entity": {
+			"type": "string"
+		}
+	}
+}

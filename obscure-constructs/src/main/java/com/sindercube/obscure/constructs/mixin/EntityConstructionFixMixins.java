@@ -14,7 +14,7 @@ import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
-public class EntityFixMixins {
+public class EntityConstructionFixMixins {
 
 	@Mixin(IronGolemEntity.class)
 	public abstract static class IronGolemMixin implements ObscureEntityAccess {

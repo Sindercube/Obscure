@@ -10,7 +10,7 @@
 		"BlockFixMixins$WitherSkullBlockMixin",
 		"BlockItemMixin",
 		"CarvedPumpkinBlockInvoker",
-		"EntityFixMixins$IronGolemMixin",
-		"EntityFixMixins$WitherEntityMixin"
+		"EntityConstructionFixMixins$IronGolemMixin",
+		"EntityConstructionFixMixins$WitherEntityMixin"
 	]
 }
